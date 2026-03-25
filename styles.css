@@ -1,0 +1,28 @@
+input[type="radio"] {
+    display: none;
+}
+
+/* Botones centro */
+.view-switch {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.view-switch label i {
+    color: #666;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 6px;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+#grid3:checked~.view-switch label[for="grid3"] i {
+    color: #007bff;
+}
+
+#grid1:checked~.view-switch label[for="grid1"] i {
+    color: #007bff;
+}
